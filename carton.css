@@ -1,0 +1,62 @@
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+
+body {
+    margin: 0;
+    background-image: url("../carton_bingo/fondo.jpg");
+    background-repeat: no-repeat; 
+
+  }
+
+main {
+    display: block;
+  }
+  p{
+    font-size: 12px;
+  }
+
+table, td {
+    border: 2px solid black;
+  border-collapse : collapse;
+  }
+
+td {
+    padding: 1.5rem;
+  }
+
+a {
+    text-decoration: none;
+}
+#carton{position:absolute;
+        bottom:150px;
+        left:450px;
+background-color: lightblue;
+      }
+      #instrucciones{position:absolute;
+        bottom:50px;
+        left:450px;
+background-color: none;
+      }
+      #elementos{
+        position: absolute;
+        text-align: center;
+  bottom:150px;
+  right:250px;
+  height: 250px;
+  width: 50px;
+  background-color:none;
+  border-color: 1px solid black;
+}
+/*#pasador{
+        position: absolute;
+  /*bottom:250px;
+  left:250px;*/
+  /*height: 50px;*/
+ /* width: 150px;
+}*/
+#ShowQuotes{
+  display: block;
+  height: 100px;
+}

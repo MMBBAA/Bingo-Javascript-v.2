@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="carton.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    
+        <title>Carton de bingo</title>
+</head>
+<body>
+    <div id="carton"></div>
+   <div id="instrucciones">
+     <h3>
+        <p>tache números según salgan por pantalla</p>
+       <p>pulse el botón sacar nº para obtener cifras y avanzar la partida</p>
+       <p>si completa la línea central completa tendrá linea, si completa todas las líneas será bingo</p>
+     </h3>
+   </div>
+  
+  <div id="elementos">
+  
+<button onclick="next()">sacar nº</button>
+<span id="MostrarNumeros"></span>
+    </div>
+    <script src="generarCarton.js"></script>
+    <script src="jugarBingo.js"></script>
+    <script src="Bombo.js"></script>
+</body>
+</html>
