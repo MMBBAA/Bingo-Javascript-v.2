@@ -1,1 +1,1 @@
-"# practicas" 
+Bingo v.2
